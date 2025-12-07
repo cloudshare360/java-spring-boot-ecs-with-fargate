@@ -32,3 +32,20 @@ Minimal Spring Boot HelloWorld service that is containerized, pushed to Amazon E
 See `REQUIREMENTS.md` for the detailed requirements captured from the manual run.
 
 
+## Repository
+- GitHub: https://github.com/cloudshare360/java-spring-boot-ecs-with-fargate
+- Clone: `git clone https://github.com/cloudshare360/java-spring-boot-ecs-with-fargate.git`
+
+## Contribution Guidelines
+- Use feature branches from `main`; prefer prefixes like `feature/`, `bugfix/`, `docs/`.
+- Keep commits small and focused; include meaningful messages.
+- Run build/tests locally before PRs; ensure Docker build succeeds.
+- Avoid committing secrets (use `.gitignore` already present for `.git-credentials`).
+- Open a PR to `main` with a short summary and any testing notes.
+
+## Branching Strategy
+- `main`: protected, always releasable.
+- Working changes: create short-lived branches off `main` per change.
+- After review, squash-merge to `main` unless history needs to be preserved.
+
+
