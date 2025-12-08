@@ -13,7 +13,8 @@ Provide a minimal Spring Boot HelloWorld service, containerize it, publish the i
 ## Functional Requirements
 1) Spring Boot service
 - Expose an HTTP endpoint (e.g., GET `/`) returning a static HelloWorld message.
-- Buildable with the chosen Java build tool (Maven or Gradle).
+- Built with Spring Boot 2.7.18 on Java 8 (JDK 1.8).
+- Buildable with Maven or Gradle.
 
 2) Docker image
 - Provide a Dockerfile that builds a runnable image of the application.
@@ -41,7 +42,7 @@ Provide a minimal Spring Boot HelloWorld service, containerize it, publish the i
 - AWS account with permissions for ECR, ECS (Fargate), IAM role creation, and optional load balancer resources.
 - AWS CLI installed and configured (`aws configure`) with appropriate credentials and region.
 - Docker installed and running locally for image build and push.
-- Java 17+ and a build tool (Maven/Gradle) available to build the Spring Boot app.
+- Java 8 (JDK 1.8) and Maven 3.6+ or Gradle available to build the Spring Boot app.
 
 ## Deliverables
 - Spring Boot HelloWorld source code.

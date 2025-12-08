@@ -1,0 +1,33 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Documentation
+*.md
+!README.md
+
+# Git credentials
+.git-credentials
+
+# Logs
+*.log
+
+# Test files
+src/test/
+
+# AWS
+.aws/

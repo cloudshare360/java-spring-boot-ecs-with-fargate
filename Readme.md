@@ -4,7 +4,8 @@
 Minimal Spring Boot HelloWorld service that is containerized, pushed to Amazon ECR, and run on an ECS cluster using the Fargate launch type.
 
 ## Stack
-- Java (Spring Boot)
+- Java 8 (JDK 1.8.0_202)
+- Spring Boot 2.7.18
 - Docker for image build
 - Amazon ECR for the registry
 - Amazon ECS with Fargate for compute
@@ -14,7 +15,8 @@ Minimal Spring Boot HelloWorld service that is containerized, pushed to Amazon E
 - AWS account with permissions for ECR, ECS (Fargate), and IAM roles
 - AWS CLI installed and configured (`aws configure`)
 - Docker installed and running locally
-- Java build tool available (Maven or Gradle)
+- Java 8 (JDK 1.8) installed
+- Maven 3.6+ or Gradle build tool available
 
 ## Manual Workflow (one-time run)
 1. Build the app: package the Spring Boot HelloWorld service.
